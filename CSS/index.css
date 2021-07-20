@@ -1,0 +1,101 @@
+
+.section-padding{
+	padding: 5vh;
+}
+
+
+.presentacion__texto{
+	width: 100%;
+	padding: 20px;
+	font-size: 24px;
+	display: inline-block;
+}
+.presentacion__texto h1{
+	padding-bottom: 20px;
+}
+
+.presentacion__texto p{
+	font-size: 0.7em;
+}
+
+.presentacion__imagen{
+	widows: 100%;
+	display: inline-block;
+	/*clip-path: circle(50% at 50% 50%);*/
+/*	border: solid yellow;
+*/}
+
+.presentacion__imagen img{
+	width: 100%;
+	background-color: #FFF5DE;
+	clip-path: circle(50% at 50% 50%);
+
+}
+
+/*@media only screen and (min-width:  992px){
+		.presentacion__texto{
+			width: 50%;
+			display: inline-block;
+		}
+		.presentacion__imagen{
+			width: 50%;
+			display: inline-block;
+		}
+   }*/
+.historia{
+	margin-top: 3%;
+}
+
+.historia__item{
+ 	background-color: #FFF5DE;
+ 	margin-top: 4vh;
+ 	padding: 2vh;
+ 	text-align: center;
+ 	border-radius: 5vh;
+ 	display: inline-block;
+ 	width: 100%;
+  }
+.historia__item--important{
+ 	background-color: #FFF5DE;
+ 	margin-top: 4vh;
+ 	padding: 2vh;
+ 	text-align: center;
+ 	border-radius: 5vh;
+ 	display: inline-block;
+ 	width: 100%;
+ 	font-weight: bolder;
+  }
+.historia__item:hover{
+  	background-color: #3C5186;
+  }
+
+.historia__item--important:hover{
+  	background-color: #3C5186;
+  }
+
+  .paisaje{
+  	background-image: url(../Multimedia/paisaje.jpg);
+  	height: 50vh;
+  	background-size: cover;
+  	border-radius: 17px;
+  	margin-bottom: 100px;
+  	opacity: 0.6;
+  	margin: 5vh;
+  }
+
+  /*Media queries*/
+
+
+@media only screen and (min-width:  992px){
+	.presentacion__texto{
+		width: 48%;
+		position: relative;
+		bottom: 200px;
+	}
+	.presentacion__imagen{
+		width: 48%;
+	}
+	.historia__item, .historia__item--important{
+		width: 24%;
+	}
+}
